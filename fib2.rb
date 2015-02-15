@@ -18,4 +18,11 @@
 # Array of Fibonacci values for 0 to 20
 fib-number = [0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765] 
 
+puts "Enter a number 0 to 20:"
 
+my_num = gets.chomp
+my_num = my_num.to_i
+
+my_fib = fib-number(my_num)
+
+puts "f(#{my_num}) = #{my_fib} "
