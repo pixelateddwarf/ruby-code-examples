@@ -1,5 +1,20 @@
  #!/usr/bin/env ruby -w
 
+#########################################
+#                                       #
+#                                       #
+#  Program: FizBuz                      #
+#  Purpose: If the number is divisable  #
+#           by 3 and 5 print FizBuz     #
+#           if it is divisable by 5     #
+#           print Buz and if divisable  #
+#           by 3 then print Fiz         #
+#                                       #
+#  Programmer: Al Dunbar                #
+#  Date      : Jan 2015                 #
+#                                       #
+#                                       #
+#########################################
 
 
 

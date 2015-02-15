@@ -7,6 +7,7 @@
 #  Program: Fibonacci Sequence          #
 #  Purpose: Put in a number and get     #
 #           The fibonacci number for it #
+#           Array from 0 to 20          #
 #                                       #
 #  Programmer: Al Dunbar                #
 #  Date      : Feb 2015                 #
@@ -14,24 +15,7 @@
 #                                       #
 #########################################
 
+# Array of Fibonacci values for 0 to 20
+fib-number = [0,1,1,2,3,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,6765] 
 
-puts "Enter Fibonacci Number to end the sequence"
-puts "Number must be over 2"
-puts "Enter your Number now"
-
-my_num = gets.chomp
-my_num = my_num.to_i
-
-
-def fib(num)
-  if num == 0 || num == 1
-      num
-  else
-    fib(num-1) + fib(num-2)
-  end
-end
-
-my_fib = fib(my_num)
-
-puts "f(#{my_num}) = #{my_fib} "
 
